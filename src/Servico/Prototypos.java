@@ -86,6 +86,8 @@ public class Prototypos {
      
      public static long ObterNumerosDeDiasEntreDatas(String Date){
         
+         Date = ConvertParseStringDate(Date);
+        
          Date date = new Date();
          SimpleDateFormat formatador = new SimpleDateFormat("dd/MM/yyyy");
          Date d1 = null;

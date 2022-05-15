@@ -36,7 +36,7 @@ public static Connection con;
              return  con;
                 
 	} catch(ClassCastException e){
-        System.out.println( "Erro na conex�o ao Bando de Dados eeeeeeeeee: " +
+        System.out.println( "Erro na conexão ao Bando de Dados : " +
 							           e.getMessage() );
         }
 	  catch ( SQLException sqle ) {

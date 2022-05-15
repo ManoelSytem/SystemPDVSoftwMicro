@@ -30,8 +30,8 @@ public class ListaVendas extends javax.swing.JFrame {
     }
 
     public void CarregarGridVenda(String venda, String[] mes) {
-      ;
-       while (jTableHvendas.getModel().getRowCount() > 0) {  
+
+        while (jTableHvendas.getModel().getRowCount() > 0) {  
            ((DefaultTableModel)jTableHvendas.getModel()).removeRow(0);  
        } 
         try {
